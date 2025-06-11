@@ -1,0 +1,50 @@
+[
+    {
+        "team": "Chiefs",
+        "margin_of_victory": 7.8,
+        "offense_rank": 2,
+        "defense_rank": 9,
+        "turnover_margin": 6,
+        "record_in_one_score_games": "5-2"
+    },
+    {
+        "team": "Lions",
+        "margin_of_victory": 3.1,
+        "offense_rank": 6,
+        "defense_rank": 20,
+        "turnover_margin": -1,
+        "record_in_one_score_games": "4-4"
+    },
+    {
+        "team": "Bears",
+        "margin_of_victory": -5.2,
+        "offense_rank": 22,
+        "defense_rank": 27,
+        "turnover_margin": -8,
+        "record_in_one_score_games": "2-6"
+    },
+    {
+        "team": "Packers",
+        "margin_of_victory": 2.5,
+        "offense_rank": 12,
+        "defense_rank": 14,
+        "turnover_margin": 2,
+        "record_in_one_score_games": "3-3"
+    },
+    {
+        "team": "Bills",
+        "margin_of_victory": 6.4,
+        "offense_rank": 3,
+        "defense_rank": 5,
+        "turnover_margin": 5,
+        "record_in_one_score_games": "6-1"
+    },
+    {
+        "team": "Jets",
+        "margin_of_victory": -1.8,
+        "offense_rank": 25,
+        "defense_rank": 7,
+        "turnover_margin": -3,
+        "record_in_one_score_games": "3-5"
+    }
+]

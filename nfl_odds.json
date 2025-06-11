@@ -1,0 +1,83 @@
+[
+    {
+        "home_team": "Chiefs",
+        "away_team": "Lions",
+        "odds": {
+            "FanDuel": {
+                "home_spread": -6.5,
+		"away_spread": 6.5,
+                "home_moneyline": -250,
+		"away_moneyline": 200,
+                "over_under": 52.5
+            },
+            "DraftKings": {
+                "home_spread": -6,
+		"away_spread": 6,
+                "home_moneyline": -240,
+		"away_moneyline": 190,
+                "over_under": 52.0
+            },
+            "BetMGM": {
+                "home_spread": -7,
+		"away_spread": 7,
+                "home_moneyline": -260,
+		"away_moneyline": 210,
+                "over_under": 53.0
+            }
+        }
+    },
+    {
+        "home_team": "Bears",
+        "away_team": "Packers",
+        "odds": {
+            "FanDuel": {
+                "home_spread": 3,
+		"away_spread": -3,
+                "home_moneyline": 135,
+		"away_moneyline": -170,
+                "over_under": 44.5
+            },
+            "DraftKings": {
+                "home_spread": 2.5,
+		"away_spread": -2.5,
+                "home_moneyline": 140,
+		"away_moneyline": -190,
+                "over_under": 44.0
+            },
+            "BetMGM": {
+                "home_spread": 3,
+		"away_spread": -3,
+                "home_moneyline": 130,
+		"away_moneyline": -180,
+                "over_under": 45.0
+            }
+        }
+    },
+    {
+        "home_team": "Bills",
+        "away_team": "Jets",
+        "odds": {
+            "FanDuel": {
+                "home_spread": -1.5,
+		"away_spread": 1.5,
+                "home_moneyline": -120,
+		"away_moneyline": 170,
+                "over_under": 46.0
+            },
+            "DraftKings": {
+                "home_spread": -2,
+		"away_spread": 2,
+                "home_moneyline": -125,
+		"away_moneyline": 190,
+                "over_under": 45.5
+            },
+            "BetMGM": {
+                "home_spread": -1,
+		"away_spread": 1,
+                "home_moneyline": -115,
+		"away_moneyline": 160,
+                "over_under": 46.5
+            }
+        }
+    }
+]
