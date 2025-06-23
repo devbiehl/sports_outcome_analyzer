@@ -1,0 +1,128 @@
+{
+    "Pacers": {
+        "team_stats": {
+            "Ortg": 119.2,
+            "Drtg": 114.5,
+            "Pace": 101.6,
+            "TS%": 0.59,
+            "TOV%": 12.3,
+            "Rebound%": 51.2
+        },
+        "players": [
+            {
+                "name": "Tyrese Haliburton",
+                "MPG": 34.2,
+                "Ortg": 123.5,
+                "Drtg": 110.0
+            },
+            {
+                "name": "Myles Turner",
+                "MPG": 29.4,
+                "Ortg": 118.2,
+                "Drtg": 109.2
+            },
+            {
+                "name": "Pascal Siakam",
+                "MPG": 34.5,
+                "Ortg": 122.7,
+                "Drtg": 110.1
+            }
+        ],
+        "injuries": []
+    },
+    "Thunder": {
+        "team_stats": {
+            "Ortg": 117.8,
+            "Drtg": 110.3,
+            "Pace": 100.2,
+            "TS%": 0.586,
+            "TOV%": 11.5,
+            "Rebound%": 50.1
+        },
+        "players": [
+            {
+                "name": "Shai Gilgeous-Alexander",
+                "MPG": 35.8,
+                "Ortg": 121.4,
+                "Drtg": 108.5
+            },
+            {
+                "name": "Jalen Williams",
+                "MPG": 32.5,
+                "Ortg": 116.8,
+                "Drtg": 111.1
+            },
+            {
+                "name": "Chet Holmgren",
+                "MPG": 30.1,
+                "Ortg": 113.9,
+                "Drtg": 109.7
+            }
+        ],
+        "injuries": []
+    },
+    "Knicks": {
+        "team_stats": {
+            "Ortg": 115.3,
+            "Drtg": 109.0,
+            "Pace": 97.4,
+            "TS%": 0.57,
+            "TOV%": 13.1,
+            "Rebound%": 53.8
+        },
+        "players": [
+            {
+                "name": "Jalen Brunson",
+                "MPG": 36.4,
+                "Ortg": 122.0,
+                "Drtg": 108.0
+            },
+            {
+                "name": "Josh Hart",
+                "MPG": 33.2,
+                "Ortg": 111.2,
+                "Drtg": 107.5
+            },
+            {
+                "name": "Mikal Bridges",
+                "MPG": 31.0,
+                "Ortg": 115.0,
+                "Drtg": 109.3
+            }
+        ],
+        "injuries": []
+    },
+    "Warriors": {
+        "team_stats": {
+            "Ortg": 114.1,
+            "Drtg": 112.7,
+            "Pace": 102.3,
+            "TS%": 0.574,
+            "TOV%": 14.0,
+            "Rebound%": 48.6
+        },
+        "players": [
+            {
+                "name": "Stephen Curry",
+                "MPG": 34.6,
+                "Ortg": 124.2,
+                "Drtg": 110.2
+            },
+            {
+                "name": "Klay Thompson",
+                "MPG": 30.4,
+                "Ortg": 112.5,
+                "Drtg": 113.9
+            },
+            {
+                "name": "Draymond Green",
+                "MPG": 28.9,
+                "Ortg": 110.0,
+                "Drtg": 109.0
+            }
+        ],
+        "injuries": [
+            "Draymond Green"
+        ]
+    }
+}

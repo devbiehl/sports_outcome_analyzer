@@ -1,0 +1,56 @@
+[
+    {
+        "home_team": "Pacers",
+        "away_team": "Thunder",
+        "odds": {
+            "FanDuel": {
+                "home_moneyline": 180,
+                "away_moneyline": -200,
+                "home_spread": 4.5,
+                "away_spread": -4.5,
+                "over_under": 235.5
+            },
+            "DraftKings": {
+                "home_moneyline": 190,
+                "away_moneyline": -220,
+                "home_spread": 5.5,
+                "away_spread": -5.5,
+                "over_under": 234.5
+            },
+            "BetMGM": {
+                "home_moneyline": 200,
+                "away_moneyline": -225,
+                "home_spread": 4,
+                "away_spread": -4,
+                "over_under": 236.0
+            }
+        }
+    },
+    {
+        "home_team": "Knicks",
+        "away_team": "Warriors",
+        "odds": {
+            "FanDuel": {
+                "home_moneyline": -120,
+                "away_moneyline": 100,
+                "home_spread": -2.5,
+                "away_spread": 2.5,
+                "over_under": 229.5
+            },
+            "DraftKings": {
+                "home_moneyline": -125,
+                "away_moneyline": 105,
+                "home_spread": -3.0,
+                "away_spread": 3.0,
+                "over_under": 230.0
+            },
+            "BetMGM": {
+                "home_moneyline": -118,
+                "away_moneyline": 102,
+                "home_spread": -2.0,
+                "away_spread": 2.0,
+                "over_under": 228.5
+            }
+        }
+    }
+]
