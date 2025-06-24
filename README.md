@@ -4,7 +4,8 @@ A Python tool to analyze sports game odds and team stats to estimate win probabi
 
 ## Features
 
-- Supports NFL game analysis (will be expanding to other sports like NBA).
+- Supports NFL game analysis.
+- Recently added NBA analysis.
 - Combines team statistics and sportsbook odds for predictive modeling.
 - Calculates implied probabilities and value edges on betting lines.
 - Finds best available betting lines from multiple sportsbooks.
@@ -21,8 +22,9 @@ A Python tool to analyze sports game odds and team stats to estimate win probabi
 
 - Run the main script:
 python3 main.py
-- Enter the sport you want to analyze(e.g. NFL).
+- Enter the sport you want to analyze(e.g. NFL, NBA).
 - Currently using mocked data (will eventually setup API endpoints for each sport added).
+- (FOR NBA MOCKED DATA FILE ONLY) You must change the dates of all games for each team listed for accurate fatigue weighting.
 - Currently viewing output in terminal (plan to move to webpage).
 
 ### Project Structure 
