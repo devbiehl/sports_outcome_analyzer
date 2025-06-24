@@ -11,6 +11,25 @@ from utils.helpers import (
     normalize_team_score
 )
 
+# Utility functions
+def file_opener(filename):
+    try:
+        with open(filename, 'r') as file:
+            data = json.load(file)
+            return data
+    except FileNotFoundError:
+        print(f"{filename} NOT FOUND")
+        return []
+
+def list_to_dict(list_of_dicts, key_name):
+    team_dict = {}
+    for dictionary in list_of_dicts:
+        key = dictionary[key_name]
+        team_dict[key] = dictionary
+    return team_dict
+
+
+# Function to calculate a normalized team score based on weighted stats
 def calculate_team_score(stats, weights=None):
     weights = weights or {
         'ortg': 0.225,
@@ -20,7 +39,7 @@ def calculate_team_score(stats, weights=None):
         'tov%': 0.175,
         'rebound%': 0.175
     }
-
+    # Normalize each teams stats
     ortg_scaled = normalize(stats.get('Ortg'), 100, 130)
     drtg_scaled = normalize(stats.get('Drtg'), 100, 130)
     pace_scaled = normalize(stats.get('Pace'), 95, 105)
@@ -38,6 +57,8 @@ def calculate_team_score(stats, weights=None):
     )
 
     return team_score
+
+# Function to merge 3 different sets of data under matchup ID
 def merge_data(team_stats, team_odds, team_schedule):
     all_team_data = {}
     for game in team_odds:
@@ -66,6 +87,7 @@ def merge_data(team_stats, team_odds, team_schedule):
         }
     return all_team_data
 
+# Function to calculate and weight total penalties to be applied to team score
 def calculate_penalties(schedule, injuries, fatigue_weights, injury_weights):
     if not schedule:
         return {'fatigue': 0, 'injuries': 0, 'total': 0}
@@ -130,7 +152,7 @@ def calculate_penalties(schedule, injuries, fatigue_weights, injury_weights):
         current_game['injury_score'] = 0
 
     current_game['injury_score'] = 0
-
+    # Apply weights based on number of injured players
     if len(injuries) >= 3:
         current_game['injury_score'] += injury_weights['3_max']
     elif len(injuries) == 2:
@@ -144,6 +166,7 @@ def calculate_penalties(schedule, injuries, fatigue_weights, injury_weights):
         'total': current_game['fatigue_score'] + current_game['injury_score']
     }
 
+# Function that defines weights of fatigue and injuries
 def all_penalties(all_team_data, fatigue_weights=None, injury_weights=None):
     fatigue_weights = fatigue_weights or {
         'back_to_back': 0.45,
@@ -155,6 +178,7 @@ def all_penalties(all_team_data, fatigue_weights=None, injury_weights=None):
         '2_out': 0.20,
         '3_max': 0.30
     }
+    # Loop through each matchup and assign home and away variables to be called into the penalties function
     for matchup_id, matchup in all_team_data.items():
         home_schedule = matchup.get('home_schedule', [])
         away_schedule = matchup.get('away_schedule', [])
@@ -165,25 +189,7 @@ def all_penalties(all_team_data, fatigue_weights=None, injury_weights=None):
         matchup['home_penalties'] = calculate_penalties(home_schedule, home_injuries, fatigue_weights, injury_weights)
         matchup['away_penalties'] = calculate_penalties(away_schedule, away_injuries, fatigue_weights, injury_weights)
 
-def file_opener(filename):
-    try:
-        with open(filename, 'r') as file:
-            data = json.load(file)
-            return data
-    except FileNotFoundError:
-        print(f"{filename} NOT FOUND")
-        return []
-
-def list_to_dict(list_of_dicts, key_name):
-    team_dict = {}
-    for dictionary in list_of_dicts:
-        key = dictionary[key_name]
-        team_dict[key] = dictionary
-    return team_dict
-
-def run_analysis(all_team_data):
-    return [analyze_game(game) for game in all_team_data.values()]
-
+# Function that analyzes each matchup and calls most functions and returns results
 def analyze_game(game):
     home_stats = game['home_stats']
     away_stats = game['away_stats']
@@ -227,6 +233,10 @@ def analyze_game(game):
         'home_market_chance': home_market_prob,
         'away_market_chance': away_market_prob
     }
+
+def run_analysis(all_team_data):
+    return [analyze_game(game) for game in all_team_data.values()]
+
 
 def main():
     team_stats_file = input("Enter Team Stats Filename(JSON format): ")
