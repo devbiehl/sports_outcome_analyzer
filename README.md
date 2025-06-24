@@ -24,7 +24,7 @@ A Python tool to analyze sports game odds and team stats to estimate win probabi
 python3 main.py
 - Enter the sport you want to analyze(e.g. NFL, NBA).
 - Currently using mocked data (will eventually setup API endpoints for each sport added).
-- (FOR NBA MOCKED DATA FILE ONLY) You must change the dates of all games for each team listed for accurate fatigue weighting.
+- (FOR MOCKED NBA SCHEDULE DATA FILE ONLY) You must change the dates of all games for each team listed for accurate fatigue weighting.
 - Currently viewing output in terminal (plan to move to webpage).
 
 ### Project Structure 
