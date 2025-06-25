@@ -1,22 +1,22 @@
 {
   "Pacers": [
-    {"date": "2025-06-20", "opponent": "Celtics", "home_or_away": "away", "result": "L", "back_to_back": false, "game_in_trip": 1, "days_rest": 2},
-    {"date": "2025-06-22", "opponent": "76ers", "home_or_away": "away", "result": "W", "back_to_back": false, "game_in_trip": 2, "days_rest": 1},
-    {"date": "2025-06-23", "opponent": "Thunder", "home_or_away": "home", "result": null, "back_to_back": true, "game_in_trip": 1, "days_rest": 0}
+    {"date": "2025-06-21", "opponent": "Celtics", "home_or_away": "away", "result": "L", "back_to_back": false, "game_in_trip": 1, "days_rest": 2},
+    {"date": "2025-06-23", "opponent": "76ers", "home_or_away": "away", "result": "W", "back_to_back": false, "game_in_trip": 2, "days_rest": 1},
+    {"date": "2025-06-24", "opponent": "Thunder", "home_or_away": "home", "result": null, "back_to_back": true, "game_in_trip": 1, "days_rest": 0}
   ],
   "Thunder": [
-    {"date": "2025-06-20", "opponent": "Spurs", "home_or_away": "home", "result": "W", "back_to_back": false, "game_in_trip": 2, "days_rest": 2},
-    {"date": "2025-06-22", "opponent": "Bulls", "home_or_away": "away", "result": "L", "back_to_back": false, "game_in_trip": 3, "days_rest": 1},
-    {"date": "2025-06-23", "opponent": "Pacers", "home_or_away": "away", "result": null, "back_to_back": true, "game_in_trip": 4, "days_rest": 0}
+    {"date": "2025-06-21", "opponent": "Spurs", "home_or_away": "home", "result": "W", "back_to_back": false, "game_in_trip": 2, "days_rest": 2},
+    {"date": "2025-06-23", "opponent": "Bulls", "home_or_away": "away", "result": "L", "back_to_back": false, "game_in_trip": 3, "days_rest": 1},
+    {"date": "2025-06-24", "opponent": "Pacers", "home_or_away": "away", "result": null, "back_to_back": true, "game_in_trip": 4, "days_rest": 0}
   ],
   "Knicks": [
-    {"date": "2025-06-20", "opponent": "Nets", "home_or_away": "home", "result": "W", "back_to_back": false, "game_in_trip": 1, "days_rest": 2},
-    {"date": "2025-06-22", "opponent": "Heat", "home_or_away": "away", "result": "L", "back_to_back": false, "game_in_trip": 1, "days_rest": 1},
-    {"date": "2025-06-23", "opponent": "Warriors", "home_or_away": "home", "result": null, "back_to_back": true, "game_in_trip": 1, "days_rest": 0}
+    {"date": "2025-06-21", "opponent": "Nets", "home_or_away": "home", "result": "W", "back_to_back": false, "game_in_trip": 1, "days_rest": 2},
+    {"date": "2025-06-23", "opponent": "Heat", "home_or_away": "away", "result": "L", "back_to_back": false, "game_in_trip": 1, "days_rest": 1},
+    {"date": "2025-06-24", "opponent": "Warriors", "home_or_away": "home", "result": null, "back_to_back": true, "game_in_trip": 1, "days_rest": 0}
   ],
   "Warriors": [
-    {"date": "2025-06-19", "opponent": "Kings", "home_or_away": "home", "result": "L", "back_to_back": false, "game_in_trip": 1, "days_rest": 3},
-    {"date": "2025-06-21", "opponent": "Raptors", "home_or_away": "away", "result": "W", "back_to_back": false, "game_in_trip": 1, "days_rest": 1},
-    {"date": "2025-06-23", "opponent": "Knicks", "home_or_away": "away", "result": null, "back_to_back": true, "game_in_trip": 2, "days_rest": 1}
+    {"date": "2025-06-20", "opponent": "Kings", "home_or_away": "home", "result": "L", "back_to_back": false, "game_in_trip": 1, "days_rest": 3},
+    {"date": "2025-06-22", "opponent": "Raptors", "home_or_away": "away", "result": "W", "back_to_back": false, "game_in_trip": 1, "days_rest": 1},
+    {"date": "2025-06-24", "opponent": "Knicks", "home_or_away": "away", "result": null, "back_to_back": true, "game_in_trip": 2, "days_rest": 1}
   ]
 }

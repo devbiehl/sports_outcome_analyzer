@@ -238,7 +238,7 @@ def run_analysis(all_team_data):
     return [analyze_game(game) for game in all_team_data.values()]
 
 
-def main():
+def run_nba_analysis():
     team_stats_file = input("Enter Team Stats Filename(JSON format): ")
     schedule_file = input("Enter team schedule FIlename(Json Format): ")
     odds_file = input("Enter matchup odds Filename(Json Format): ")
@@ -271,4 +271,4 @@ def main():
         print(f"-------------------------------------------------")
 
 if __name__ == '__main__':
-    main()
+    run_nba_analysis()
